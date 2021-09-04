@@ -1,0 +1,36 @@
+{
+  "name": "notepad-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "compile": "node ./node_modules/typescript/bin/tsc",
+    "start": "node ./dist/boot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/federation": "^0.20.4",
+    "@apollo/gateway": "^0.21.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.0",
+    "@wiicamp/graphql-merge-resolvers": "^2.1.2",
+    "apollo-datasource-rest": "^0.9.4",
+    "apollo-server": "^2.18.2",
+    "apollo-server-express": "^2.18.2",
+    "apollo-server-testing": "^2.18.2",
+    "express": "^4.17.1",
+    "express-pino-logger": "^5.0.0",
+    "graphql": "^15.3.0",
+    "overload-protection": "^1.2.1",
+    "pino": "^6.7.0",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "ts-jest": "^26.4.2"
+  }
+}
